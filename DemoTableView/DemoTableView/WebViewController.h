@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebViewController : UIViewController
+@interface WebViewController : UIViewController<UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
+@property (weak, nonatomic) IBOutlet UIButton *button;
+-(void)insertURL : (NSString*)urlinput;
 @end

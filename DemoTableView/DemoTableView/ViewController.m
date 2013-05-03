@@ -108,7 +108,16 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
+    WebViewController* webView = [[ WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil];
+    NSArray* countries = [[_array objectAtIndex:indexPath.section]
+                          valueForKey:@"countries"];
+    
+    NSArray* sortedArray= [countries sortedArrayUsingDescriptors:[NSArray arrayWithObject:_sort]];
+    NSString*name = [[sortedArray objectAtIndex:indexPath.row]valueForKey: @"name"];
+    NSString*inputurl = [NSString stringWithFormat:@"http://en.wikipedia.org/wiki/%@",name];
+    [webView insertURL: inputurl ];
 
+    [self presentViewController:webView animated:YES completion:nil];
     
     
 }
