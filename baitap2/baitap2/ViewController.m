@@ -37,13 +37,13 @@
 
 - (IBAction)Graphich:(id)sender {
     
-    int b  = 33/3;
+    int b  = 60/3;
     for (int i =0; i<b; i++) {
         printf(".   ");
     }
     printf("\n");
     printf(" ");
-    for (int i =0; i<b; i++) {
+    for (int i =0; i<b*2; i++) {
         
         printf(". ");
     }
