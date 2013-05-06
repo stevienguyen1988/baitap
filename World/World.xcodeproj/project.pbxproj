@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E08EBD131735F6C20072E298 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBD121735F6C20072E298 /* UIKit.framework */; };
+		E08EBD151735F6C20072E298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBD141735F6C20072E298 /* Foundation.framework */; };
+		E08EBD171735F6C20072E298 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBD161735F6C20072E298 /* CoreGraphics.framework */; };
+		E08EBD1D1735F6C20072E298 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E08EBD1B1735F6C20072E298 /* InfoPlist.strings */; };
+		E08EBD1F1735F6C20072E298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD1E1735F6C20072E298 /* main.m */; };
+		E08EBD231735F6C20072E298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD221735F6C20072E298 /* AppDelegate.m */; };
+		E08EBD251735F6C20072E298 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E08EBD241735F6C20072E298 /* Default.png */; };
+		E08EBD271735F6C20072E298 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E08EBD261735F6C20072E298 /* Default@2x.png */; };
+		E08EBD291735F6C20072E298 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E08EBD281735F6C20072E298 /* Default-568h@2x.png */; };
+		E08EBD311735F6C20072E298 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBD301735F6C20072E298 /* SenTestingKit.framework */; };
+		E08EBD321735F6C20072E298 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBD121735F6C20072E298 /* UIKit.framework */; };
+		E08EBD331735F6C20072E298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBD141735F6C20072E298 /* Foundation.framework */; };
+		E08EBD3B1735F6C20072E298 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E08EBD391735F6C20072E298 /* InfoPlist.strings */; };
+		E08EBD3E1735F6C20072E298 /* WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD3D1735F6C20072E298 /* WorldTests.m */; };
+		E08EBD4F1735F8820072E298 /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD4E1735F8820072E298 /* Tiger.m */; };
+		E08EBD521735F9050072E298 /* Body.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD511735F9050072E298 /* Body.m */; };
+		E08EBD551735FA2B0072E298 /* Birg.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD541735FA2B0072E298 /* Birg.m */; };
+		E08EBD591735FB350072E298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD571735FB350072E298 /* ViewController.m */; };
+		E08EBD5A1735FB350072E298 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E08EBD581735FB350072E298 /* ViewController.xib */; };
+		E08EBD5D1735FBC60072E298 /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EBD5C1735FBC60072E298 /* Chicken.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E08EBD341735F6C20072E298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E08EBD071735F6C20072E298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08EBD0E1735F6C20072E298;
+			remoteInfo = World;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E08EBD0F1735F6C20072E298 /* World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = World.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08EBD121735F6C20072E298 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E08EBD141735F6C20072E298 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E08EBD161735F6C20072E298 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E08EBD1A1735F6C20072E298 /* World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World-Info.plist"; sourceTree = "<group>"; };
+		E08EBD1C1735F6C20072E298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E08EBD1E1735F6C20072E298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E08EBD201735F6C20072E298 /* World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World-Prefix.pch"; sourceTree = "<group>"; };
+		E08EBD211735F6C20072E298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E08EBD221735F6C20072E298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E08EBD241735F6C20072E298 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E08EBD261735F6C20072E298 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E08EBD281735F6C20072E298 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E08EBD2F1735F6C20072E298 /* WorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08EBD301735F6C20072E298 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E08EBD381735F6C20072E298 /* WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldTests-Info.plist"; sourceTree = "<group>"; };
+		E08EBD3A1735F6C20072E298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E08EBD3C1735F6C20072E298 /* WorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorldTests.h; sourceTree = "<group>"; };
+		E08EBD3D1735F6C20072E298 /* WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTests.m; sourceTree = "<group>"; };
+		E08EBD4A1735F71A0072E298 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		E08EBD4D1735F8820072E298 /* Tiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
+		E08EBD4E1735F8820072E298 /* Tiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
+		E08EBD501735F9050072E298 /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		E08EBD511735F9050072E298 /* Body.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Body.m; sourceTree = "<group>"; };
+		E08EBD531735FA2B0072E298 /* Birg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Birg.h; sourceTree = "<group>"; };
+		E08EBD541735FA2B0072E298 /* Birg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Birg.m; sourceTree = "<group>"; };
+		E08EBD561735FB350072E298 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E08EBD571735FB350072E298 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E08EBD581735FB350072E298 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E08EBD5B1735FBC60072E298 /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		E08EBD5C1735FBC60072E298 /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E08EBD0C1735F6C20072E298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08EBD131735F6C20072E298 /* UIKit.framework in Frameworks */,
+				E08EBD151735F6C20072E298 /* Foundation.framework in Frameworks */,
+				E08EBD171735F6C20072E298 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08EBD2B1735F6C20072E298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08EBD311735F6C20072E298 /* SenTestingKit.framework in Frameworks */,
+				E08EBD321735F6C20072E298 /* UIKit.framework in Frameworks */,
+				E08EBD331735F6C20072E298 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E08EBD061735F6C20072E298 = {
+			isa = PBXGroup;
+			children = (
+				E08EBD181735F6C20072E298 /* World */,
+				E08EBD361735F6C20072E298 /* WorldTests */,
+				E08EBD111735F6C20072E298 /* Frameworks */,
+				E08EBD101735F6C20072E298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E08EBD101735F6C20072E298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E08EBD0F1735F6C20072E298 /* World.app */,
+				E08EBD2F1735F6C20072E298 /* WorldTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E08EBD111735F6C20072E298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E08EBD121735F6C20072E298 /* UIKit.framework */,
+				E08EBD141735F6C20072E298 /* Foundation.framework */,
+				E08EBD161735F6C20072E298 /* CoreGraphics.framework */,
+				E08EBD301735F6C20072E298 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E08EBD181735F6C20072E298 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				E08EBD211735F6C20072E298 /* AppDelegate.h */,
+				E08EBD221735F6C20072E298 /* AppDelegate.m */,
+				E08EBD561735FB350072E298 /* ViewController.h */,
+				E08EBD571735FB350072E298 /* ViewController.m */,
+				E08EBD581735FB350072E298 /* ViewController.xib */,
+				E08EBD4A1735F71A0072E298 /* Animal.h */,
+				E08EBD501735F9050072E298 /* Body.h */,
+				E08EBD511735F9050072E298 /* Body.m */,
+				E08EBD4D1735F8820072E298 /* Tiger.h */,
+				E08EBD4E1735F8820072E298 /* Tiger.m */,
+				E08EBD531735FA2B0072E298 /* Birg.h */,
+				E08EBD541735FA2B0072E298 /* Birg.m */,
+				E08EBD5B1735FBC60072E298 /* Chicken.h */,
+				E08EBD5C1735FBC60072E298 /* Chicken.m */,
+				E08EBD191735F6C20072E298 /* Supporting Files */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		E08EBD191735F6C20072E298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E08EBD1A1735F6C20072E298 /* World-Info.plist */,
+				E08EBD1B1735F6C20072E298 /* InfoPlist.strings */,
+				E08EBD1E1735F6C20072E298 /* main.m */,
+				E08EBD201735F6C20072E298 /* World-Prefix.pch */,
+				E08EBD241735F6C20072E298 /* Default.png */,
+				E08EBD261735F6C20072E298 /* Default@2x.png */,
+				E08EBD281735F6C20072E298 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E08EBD361735F6C20072E298 /* WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				E08EBD3C1735F6C20072E298 /* WorldTests.h */,
+				E08EBD3D1735F6C20072E298 /* WorldTests.m */,
+				E08EBD371735F6C20072E298 /* Supporting Files */,
+			);
+			path = WorldTests;
+			sourceTree = "<group>";
+		};
+		E08EBD371735F6C20072E298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E08EBD381735F6C20072E298 /* WorldTests-Info.plist */,
+				E08EBD391735F6C20072E298 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E08EBD0E1735F6C20072E298 /* World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08EBD411735F6C20072E298 /* Build configuration list for PBXNativeTarget "World" */;
+			buildPhases = (
+				E08EBD0B1735F6C20072E298 /* Sources */,
+				E08EBD0C1735F6C20072E298 /* Frameworks */,
+				E08EBD0D1735F6C20072E298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = World;
+			productName = World;
+			productReference = E08EBD0F1735F6C20072E298 /* World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E08EBD2E1735F6C20072E298 /* WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08EBD441735F6C20072E298 /* Build configuration list for PBXNativeTarget "WorldTests" */;
+			buildPhases = (
+				E08EBD2A1735F6C20072E298 /* Sources */,
+				E08EBD2B1735F6C20072E298 /* Frameworks */,
+				E08EBD2C1735F6C20072E298 /* Resources */,
+				E08EBD2D1735F6C20072E298 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E08EBD351735F6C20072E298 /* PBXTargetDependency */,
+			);
+			name = WorldTests;
+			productName = WorldTests;
+			productReference = E08EBD2F1735F6C20072E298 /* WorldTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E08EBD071735F6C20072E298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = thainguyen;
+			};
+			buildConfigurationList = E08EBD0A1735F6C20072E298 /* Build configuration list for PBXProject "World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E08EBD061735F6C20072E298;
+			productRefGroup = E08EBD101735F6C20072E298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08EBD0E1735F6C20072E298 /* World */,
+				E08EBD2E1735F6C20072E298 /* WorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E08EBD0D1735F6C20072E298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08EBD1D1735F6C20072E298 /* InfoPlist.strings in Resources */,
+				E08EBD251735F6C20072E298 /* Default.png in Resources */,
+				E08EBD271735F6C20072E298 /* Default@2x.png in Resources */,
+				E08EBD291735F6C20072E298 /* Default-568h@2x.png in Resources */,
+				E08EBD5A1735FB350072E298 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08EBD2C1735F6C20072E298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08EBD3B1735F6C20072E298 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E08EBD2D1735F6C20072E298 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E08EBD0B1735F6C20072E298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08EBD1F1735F6C20072E298 /* main.m in Sources */,
+				E08EBD231735F6C20072E298 /* AppDelegate.m in Sources */,
+				E08EBD4F1735F8820072E298 /* Tiger.m in Sources */,
+				E08EBD521735F9050072E298 /* Body.m in Sources */,
+				E08EBD551735FA2B0072E298 /* Birg.m in Sources */,
+				E08EBD591735FB350072E298 /* ViewController.m in Sources */,
+				E08EBD5D1735FBC60072E298 /* Chicken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08EBD2A1735F6C20072E298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08EBD3E1735F6C20072E298 /* WorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E08EBD351735F6C20072E298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08EBD0E1735F6C20072E298 /* World */;
+			targetProxy = E08EBD341735F6C20072E298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E08EBD1B1735F6C20072E298 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E08EBD1C1735F6C20072E298 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E08EBD391735F6C20072E298 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E08EBD3A1735F6C20072E298 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E08EBD3F1735F6C20072E298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E08EBD401735F6C20072E298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E08EBD421735F6C20072E298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World/World-Prefix.pch";
+				INFOPLIST_FILE = "World/World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E08EBD431735F6C20072E298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World/World-Prefix.pch";
+				INFOPLIST_FILE = "World/World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E08EBD451735F6C20072E298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World.app/World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World/World-Prefix.pch";
+				INFOPLIST_FILE = "WorldTests/WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E08EBD461735F6C20072E298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World.app/World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World/World-Prefix.pch";
+				INFOPLIST_FILE = "WorldTests/WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E08EBD0A1735F6C20072E298 /* Build configuration list for PBXProject "World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08EBD3F1735F6C20072E298 /* Debug */,
+				E08EBD401735F6C20072E298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08EBD411735F6C20072E298 /* Build configuration list for PBXNativeTarget "World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08EBD421735F6C20072E298 /* Debug */,
+				E08EBD431735F6C20072E298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E08EBD441735F6C20072E298 /* Build configuration list for PBXNativeTarget "WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08EBD451735F6C20072E298 /* Debug */,
+				E08EBD461735F6C20072E298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E08EBD071735F6C20072E298 /* Project object */;
+}
