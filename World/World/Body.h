@@ -10,5 +10,5 @@
 #import "Animal.h"
 @interface Body : NSObject<Animal>
 @property NSString* nameAimal;
-@property int dangerous;
+@property(assign) int dangerous;
 @end

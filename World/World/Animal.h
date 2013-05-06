@@ -11,7 +11,7 @@
 @protocol Animal <NSObject>
 
 @required
-@property int dangerous;
+
 -(void) presentName :(NSString*)name;
 -(int) returnDangerous;
 @optional

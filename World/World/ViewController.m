@@ -75,22 +75,26 @@
 }
 
 - (IBAction)WhoCanEat:(id)sender {
+    
     for (int i =0; i<[_array count]; i++) {
-   
+        
         for (int j =0; j<[_array count]; j++) {
             id<Animal> animal1 = [_array objectAtIndex:i];
             id<Animal> animal2 = [_array objectAtIndex:j];
-            
+       
             if ([animal1 returnDangerous] >[animal2 returnDangerous]) {
-                NSLog(@"Can Eat");
+              
                 [animal1 presentName:nil];
+                NSLog(@" can eat ");
                 [animal2 presentName:nil];
             }
             
             
         }
-    
-    
+        
+        
     }
 }
+
+
 @end

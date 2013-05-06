@@ -14,10 +14,11 @@
 
 @implementation ViewController
 {
-    
-    int _time ;
+   
     NSTimer* _timerandom;
-    int _radius;
+    float _geschwindigkeit;
+    float _beschleunigung;
+    BOOL _lauf;
 }
 @synthesize ziklus1;
 @synthesize ziklus2;
@@ -27,8 +28,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"2.png"]];
-    _time =2;
-    _radius =50;
+    _geschwindigkeit=M_PI*6;
+    _beschleunigung =M_PI_4/6;
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,29 +40,51 @@
 
 - (IBAction)Play:(id)sender
 {
-    _timerandom = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(random) userInfo:nil repeats:YES];
+    _timerandom = [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(random) userInfo:nil repeats:YES];
     
-    
+    if(_geschwindigkeit==0)
+    {
+        
+        _geschwindigkeit=M_PI*6;
+        
+    }
 }
 
 - (IBAction)Stop:(id)sender {
     [_timerandom invalidate];
+    //_geschwindigkeit=M_PI*20;
 }
 -(void)random
 {
     
+   if(_geschwindigkeit !=M_PI*100 &&_lauf)
+   {
+       
+       _geschwindigkeit = _geschwindigkeit + _beschleunigung;
+       
+   }
+   else{
+       
+       
+       _lauf = NO;
+   }
+    if(!_lauf&&_geschwindigkeit!=0)
+    {
+        _geschwindigkeit = _geschwindigkeit- _beschleunigung/2;
+        
+    }
+    
+        self.ziklus1.transform = CGAffineTransformMakeRotation(_geschwindigkeit);
+        self.ziklus2.transform = CGAffineTransformMakeRotation(-_geschwindigkeit);
+        self.ziklus3.transform = CGAffineTransformMakeRotation(_geschwindigkeit);
+    
    
-        self.ziklus1.transform = CGAffineTransformMakeRotation(_radius);
-        self.ziklus2.transform = CGAffineTransformMakeRotation(-_radius);
-        self.ziklus3.transform = CGAffineTransformMakeRotation(_radius);
-        _radius--;
-      
- 
-        if(_radius==0)
-        {
-            
-            [_timerandom invalidate];
-        }
+    if(_geschwindigkeit<M_PI_4/3)
+    {
+        
+        _geschwindigkeit=0;
+        
+    }
     
    
     
