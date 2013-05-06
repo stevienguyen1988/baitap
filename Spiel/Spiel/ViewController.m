@@ -74,12 +74,12 @@
         
     }
     
-        self.ziklus1.transform = CGAffineTransformMakeRotation(_geschwindigkeit);
-        self.ziklus2.transform = CGAffineTransformMakeRotation(-_geschwindigkeit);
-        self.ziklus3.transform = CGAffineTransformMakeRotation(_geschwindigkeit);
+        self.ziklus1.transform = CGAffineTransformMakeRotation(_geschwindigkeit*1.4);
+        self.ziklus2.transform = CGAffineTransformMakeRotation(-_geschwindigkeit*0.8);
+        self.ziklus3.transform = CGAffineTransformMakeRotation(_geschwindigkeit*0.5);
     
    
-    if(_geschwindigkeit<M_PI_4/3)
+    if(_geschwindigkeit<M_PI_4/16)
     {
         
         _geschwindigkeit=0;
